@@ -6,7 +6,7 @@ import java.util.Collections;
 public class Test10 {
 
 	public static void main(String[] args) {
-	ArrayList t=new ArrayList<>();	
+	ArrayList<Integer> t=new ArrayList<Integer>();	
 		
 		t.add(10);
 		t.add(200);

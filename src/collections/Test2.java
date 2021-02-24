@@ -12,8 +12,12 @@ public class Test2 {
 	a.add('H');
 	System.out.println(a);
 	
-	for(int i=0;i<a.size();i++) {
-		System.out.println(a.get(i)); 
+//	for(int i=0;i<a.size();i++) {
+//		System.out.println(a.get(i)); 
+//	}
+	
+	for(Object b:a) {
+		System.out.println(b);
 	}
 	
 
